@@ -23,7 +23,10 @@ int main()
 	cout << "Размер второго массива равен "
 		  << integers2.getSize() <<endl;
 	if(integers1.getSize()>10||integers2.getSize()>10)
-	
+		{
+			integers1.arrayrandom();
+			integers2.arrayrandom();
+		}
 	
 	}
 	while(_getch()!=27);
