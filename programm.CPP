@@ -17,6 +17,12 @@ int main()
 	while (input(s1));
 	cout << "Введите размер массива 2 "  << " ===> ";
 	while (input(s2));
+	cout << "Размер первого массива равен "
+		  << integers1.getSize() << endl;
+
+	cout << "Размер второго массива равен "
+		  << integers2.getSize() <<endl;
+		  
 	}
 	while(_getch()!=27);
 }
