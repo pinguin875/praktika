@@ -27,7 +27,13 @@ int main()
 			integers1.arrayrandom();
 			integers2.arrayrandom();
 		}
-	
+	else
+	{
+			cout << "Введите " << integers1.getSize()
+				<<" целочисленных значений для первого массивa:" << endl;
+			cin >>integers1;
+			
+			
 	}
 	while(_getch()!=27);
 }
