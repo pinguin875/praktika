@@ -32,7 +32,9 @@ int main()
 			cout << "Введите " << integers1.getSize()
 				<<" целочисленных значений для первого массивa:" << endl;
 			cin >>integers1;
-			
+			cout << "Введите " << integers2.getSize()
+				<<" целочисленных значений для второго массивa:" << endl;
+			cin >>integers2;
 			
 	}
 	while(_getch()!=27);
