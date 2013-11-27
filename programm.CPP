@@ -12,6 +12,7 @@ int main()
 	cout << "      b/a+21,    если a > b"<<endl;
 	cout <<  "X =   -5,     если a = b"<<endl;
 	cout << "     3*a/b+1,    если a < b"<<endl<<endl;
+	int s1,s2;
 	}
 	while(_getch()!=27);
 }
