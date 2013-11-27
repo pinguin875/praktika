@@ -5,5 +5,9 @@
 
 int main()
 {
-  
+  do
+	{
+	  SetConsoleOutputCP(1251);
+	}
+	while(_getch()!=27);
 }
